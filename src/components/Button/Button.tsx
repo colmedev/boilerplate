@@ -8,11 +8,13 @@ type ButtonProps = {
 
 const Button = ({ title, href, ClassName }: ButtonProps) => {
   return (
+    <>
     <button
       className={ClassName}
     >
       <a href={href}>{title}</a>
     </button>
+    </>
   );
 };
 
