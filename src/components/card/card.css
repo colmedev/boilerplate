@@ -1,0 +1,13 @@
+.card {
+  display: flex;  
+
+  & .card__title {
+    color: red;
+  }
+
+  & .card__content {
+    line-height: normal;
+    line-break: auto;
+    padding: 1rem;
+  }
+}
